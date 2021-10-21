@@ -2,7 +2,7 @@
     width: 100%;
     height: 1000px;
     background: rgba(255, 0, 66, 0);
-    display: flex;
+    display:flex;
     flex-direction: column;
     row-gap: 10px;
 }
@@ -14,7 +14,7 @@
 }
 .widgets{
     font-size: 25px;
-    color:white;
+    color: #404040;
     width: 100%;
     height: 100%;
     background: #1c0eff;
