@@ -1,0 +1,63 @@
+.box{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+}
+.top{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+}
+.Header{
+    width: 100%;
+    height: 60%;
+    background: rgba(0, 34, 255, 0.42);
+    font-size: 25px;
+    color: #faf8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Nav{
+    width: 100%;
+    height: 40%;
+    font-size: 25px;
+    color: #faf8ff;
+    background: rgb(0, 34, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center{
+    width: 100%;
+    height: 70%;
+    display: flex;
+}
+.main{
+    width: 80%;
+    height: 100%;
+    background: rgba(131, 146, 255, 0.86);
+}
+.aside{
+     width: 20%;
+     height: 100%;
+     background: #8392ff;
+ }
+.main , .aside , .footer{
+    font-size: 25px;
+    color: #faf8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottom{
+    height: 10%;
+    width: 100%;
+}
+.footer{
+    width: 100%;
+    height: 100%;
+    background: #9623ff
+}
