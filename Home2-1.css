@@ -1,0 +1,51 @@
+.box{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.top{
+    width: 100%;
+    height: 20%;
+    display: flex;
+}
+.header{
+    width: 100%;
+    height: 100%;
+    background: #ff7559;
+}
+.center{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+.menu{
+    width: 20%;
+    height: 100%;
+    background: #ff55f0;
+}
+.center-right{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.post{
+    width: 100%;
+    height: 50%;
+    background: #9cebff;
+}
+.bottom{
+    width: 100%;
+    height: 20%;
+    display: flex;
+}
+.footer{
+    width: 100%;
+    height: 100%;
+    background: #ff7559;
+}
